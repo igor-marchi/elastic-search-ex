@@ -1,0 +1,40 @@
+# Dependências do Node
+node_modules/
+# Pasta de build, caso use TypeScript ou outro sistema de build
+dist/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente e configurações locais
+.env
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.cache-loader/
+
+# Saída do coverage de testes
+coverage/
+
+# Configurações de IDEs e editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Configurações específicas de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+tmp/
+temp/

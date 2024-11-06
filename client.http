@@ -1,0 +1,10 @@
+### Verificar se o Elasticsearch está rodando
+GET http://localhost:9200/_cat/indices
+
+
+### API de usuários
+### Listar todos os usuários
+GET http://localhost:3000/users
+
+### Buscar um usuário específico
+GET http://localhost:3000/users/search?q=joao
