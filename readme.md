@@ -25,6 +25,8 @@ docker-compose down -v
 
 ## Endpoints da API
 
+Todas as requests estão no arquivo ```client.http```. Para utilzar baixe a extensão **REST Client** no seu vsCode
+
 ### Verificar se o Elasticsearch está rodando
 
 GET http://localhost:9200/\_cat/indices
